@@ -31,7 +31,6 @@ func ReadConfig() *Config {
 }
 
 func main() {
-ReadConfig()
 
 	config := ReadConfig()
 
