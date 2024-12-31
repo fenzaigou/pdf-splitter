@@ -86,7 +86,7 @@ ReadConfig()
 
 			writer.AddPage(page)
 		}
-		writer.WriteToFile(fmt.Sprintf("./%s/%s-%d.pdf", config.Dist, config.OutputFilename, i+1))
+		writer.WriteToFile(fmt.Sprintf("%s/%s-%d.pdf", config.Dist, config.OutputFilename, i+1))
 	}
 
 }

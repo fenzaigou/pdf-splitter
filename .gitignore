@@ -1,4 +1,4 @@
 .config
 .api-key
-.result
+result/
 .DS_Store
